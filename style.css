@@ -1,0 +1,413 @@
+/* #region DO NOT OPEN */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anonymous+Pro");
+:root {
+  padding-left: auto;
+}
+:root {
+  padding-bottom: auto;
+}
+:root {
+  padding-right: auto;
+}
+[class~="side"]::before {
+  content: "";
+}
+:root {
+  padding-top: auto;
+}
+:root,
+[class~="cube"] {
+  margin-left: auto;
+}
+[class~="cube"],
+:root {
+  margin-bottom: auto;
+}
+:root,
+[class~="cube"] {
+  margin-right: auto;
+}
+[class~="cube"],
+:root {
+  margin-top: auto;
+}
+:root {
+  background-color: rgb(20, 20, 20);
+}
+:root {
+  overflow: hidden;
+}
+:root {
+  --primary-color: #465bb7;
+}
+:root {
+  --main-bg-color: rgb(20, 20, 20);
+}
+[class~="content"] {
+  display: none;
+}
+[class~="side"]:nth-child(1) {
+  transform: rotateY(90deg);
+}
+[class~="side"]::before,
+[class~="loader"] {
+  position: absolute;
+}
+[class~="loader"] {
+  left: 50%;
+}
+.side:nth-child(2) {
+  transform: rotateY(180deg);
+}
+[class~="loader"] {
+  top: 50%;
+}
+[class~="loader"] {
+  -webkit-transform: translate(-50%, -50%);
+}
+[class~="loader"] {
+  transform: translate(-50%, -50%);
+}
+[class~="side"]:nth-child(3) {
+  transform: rotateY(270deg);
+}
+.side,
+[class~="side"]::before {
+  top: 0;
+}
+.side:nth-child(4) {
+  transform: rotateY(360deg);
+}
+[class~="cube"] {
+  font-size: 1.5pc;
+}
+.side,
+[class~="side"]::before {
+  bottom: 0;
+}
+.side,
+[class~="side"]::before {
+  left: 0;
+}
+[class~="cube"] {
+  height: 1em;
+}
+[class~="side"]::before,
+.side {
+  right: 0;
+}
+[class~="cube"] {
+  width: 1em;
+}
+[class~="cube"] {
+  position: relative;
+}
+[class~="cube"] {
+  transform: rotateX(30deg) rotateY(45deg);
+}
+[class~="cube"],
+.side {
+  transform-style: preserve-3d;
+}
+[class~="cube"] {
+  animation: cube-spin 1.5s infinite ease-in-out alternate;
+}
+[class~="side"]:nth-child(5) {
+  transform: rotateX(90deg);
+}
+.side {
+  position: absolute;
+}
+[class~="side"]::before {
+  background-color: currentColor;
+}
+[class~="side"]:nth-child(6) {
+  transform: rotateX(270deg);
+}
+[class~="side"]::before {
+  transform: translateZ(0.5em);
+}
+.side {
+  color: var(--primary-color);
+}
+[class~="side"]::before {
+  animation: cube-explode 1.5s infinite ease-in-out;
+}
+[class~="side"]::before {
+  opacity: 0.5;
+}
+@keyframes cube-spin {
+  0% {
+    transform: rotateX(30deg) rotateY(45deg);
+  }
+  100% {
+    transform: rotateX(30deg) rotateY(405deg);
+  }
+}
+@keyframes cube-explode {
+  0% {
+    transform: translateZ(0.5em);
+  }
+  50% {
+    transform: translateZ(0.75em);
+  }
+  100% {
+    transform: translateZ(0.5em);
+  }
+}
+.content {
+  position: absolute;
+}
+.content {
+  left: 50%;
+}
+.content {
+  top: 50%;
+}
+.content {
+  -webkit-transform: translate(-50%, -50%);
+}
+.content {
+  transform: translate(-50%, -50%);
+}
+[class~="title"] {
+  font-family: "Rubik", sans-serif;
+}
+[class~="title"] {
+  padding-left: auto;
+}
+[class~="btn"]:hover,
+[class~="title"]:hover {
+  transform: scale(1.1);
+}
+[class~="title"] {
+  padding-bottom: auto;
+}
+[class~="title"] {
+  padding-right: auto;
+}
+[class~="btn"],
+[class~="btn"]:hover {
+  border-left-color: var(--primary-color);
+}
+[class~="title"] {
+  padding-top: auto;
+}
+[class~="title"] {
+  margin-left: 0.9375pc;
+}
+[class~="title"] {
+  margin-bottom: 0.9375pc;
+}
+[class~="title"] {
+  margin-right: 0.9375pc;
+}
+[class~="title"] {
+  margin-top: 0.9375pc;
+}
+[class~="btn"]:hover,
+[class~="btn"] {
+  border-bottom-color: var(--primary-color);
+}
+[class~="btn-container"],
+[class~="btn"],
+[class~="subtitle"],
+[class~="title"] {
+  text-align: center;
+}
+[class~="title"] {
+  color: #fff;
+}
+[class~="title"] {
+  font-size: 0.729166667in;
+}
+[class~="btn"],
+[class~="title"] {
+  transition: transform 0.2s;
+}
+[class~="title-split"] {
+  color: var(--primary-color);
+}
+[class~="btn"],
+[class~="btn"]:hover {
+  border-right-color: var(--primary-color);
+}
+[class~="btn"] {
+  max-width: 200px;
+}
+[class~="btn"] {
+  height: 0in;
+}
+[class~="btn"] {
+  border-left-width: 0.020833333in;
+}
+[class~="btn"] {
+  border-bottom-width: 0.020833333in;
+}
+[class~="btn"] {
+  border-right-width: 0.020833333in;
+}
+[class~="btn"] {
+  border-top-width: 0.020833333in;
+}
+[class~="btn"] {
+  border-left-style: solid;
+}
+[class~="btn"] {
+  border-bottom-style: solid;
+}
+[class~="btn"]:hover,
+[class~="btn"] {
+  border-top-color: var(--primary-color);
+}
+[class~="btn"] {
+  border-right-style: solid;
+}
+[class~="btn"] {
+  border-top-style: solid;
+}
+[class~="btn"]:hover {
+  color: var(--main-bg-color);
+}
+[class~="btn"]:hover {
+  background-color: var(--primary-color);
+}
+[class~="btn"] {
+  border-image: none;
+}
+[class~="btn"] {
+  background-color: var(--main-bg-color);
+}
+[class~="btn"] {
+  color: black;
+}
+[class~="btn"]:hover {
+  font-weight: bolder;
+}
+[class~="btn"] {
+  color: var(--primary-color);
+}
+[class~="btn"] {
+  padding-left: 1.25pc;
+}
+[class~="btn"] {
+  padding-bottom: 1.25pc;
+}
+[class~="btn"] {
+  padding-right: 1.25pc;
+}
+[class~="btn"] {
+  padding-top: 1.25pc;
+}
+[class~="btn"] {
+  font-size: 15pt;
+}
+[class~="btn"] {
+  cursor: pointer;
+}
+[class~="btn"] {
+  border-radius: 5px;
+}
+[class~="btn"] {
+  font-family: "Rubik", sans-serif;
+}
+[class~="btn"] {
+  line-height: 0pt;
+}
+[class~="btn"] {
+  margin-left: 2.5pc;
+}
+[class~="btn"] {
+  margin-bottom: 2.5pc;
+}
+[class~="btn"] {
+  margin-right: 2.5pc;
+}
+[class~="btn"] {
+  margin-top: 2.5pc;
+}
+[class~="subtitle"] {
+  font-family: "Anonymous Pro", monospace;
+}
+[class~="subtitle"] {
+  padding-left: auto;
+}
+[class~="subtitle"] {
+  padding-bottom: auto;
+}
+[class~="subtitle"] {
+  padding-right: auto;
+}
+[class~="subtitle"] {
+  padding-top: auto;
+}
+[class~="subtitle"] {
+  margin-left: 0.9375pc;
+}
+[class~="subtitle"] {
+  margin-bottom: 0.9375pc;
+}
+[class~="subtitle"] {
+  margin-right: 0.9375pc;
+}
+[class~="subtitle"] {
+  margin-top: 0.9375pc;
+}
+[class~="subtitle"] {
+  color: #929292;
+}
+[class~="subtitle"] {
+  font-size: 30px;
+}
+[class~="auto-type"],
+[class~="subtitle"] {
+  transition: transform 0.2s;
+}
+[class~="auto-type"] {
+  text-transform: uppercase;
+}
+[class~="auto-type"] {
+  color: #b7b7b7;
+}
+[class~="auto-type"] {
+  font-weight: 1;
+}
+
+/* #endregion */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+:root {
+  --bg-color: rgb(20, 20, 20);
+  --card-color: rgb(23, 23, 23);
+}
+
+body {
+  align-items: center;
+  background-color: var(--bg-color);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+
+h1,
+h2 {
+  color: rgb(240, 240, 240);
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.title:hover {
+  transform: scale(1.025);
+}
+
+.btn:hover {
+  transform: scale(1.025);
+  font-weight: normal;
+}
