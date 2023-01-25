@@ -535,3 +535,22 @@ nav ul li a:hover {
   }
 }
 
+.info {
+  font-family: "Anonymous Pro", monospace;
+  padding: auto;
+  margin: auto;
+  padding-top: 10px;
+  color: #929292;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.info img {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: inline-block;
+}
