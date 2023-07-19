@@ -680,3 +680,7 @@ nav ul li a:hover {
   margin-left: 5px;
   display: inline-block;
 }
+
+.api-item {
+  background-color: var(--primary-color)
+}
